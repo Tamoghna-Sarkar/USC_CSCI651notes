@@ -1,5 +1,13 @@
 # MAPREDUCE
+-    fault tolerant system(deals with all the faults) running over many workstations and scales to huge computations and datasets by running over many workshops by parallelization
+-    logic for specific type of computations:
+    -     Map: process input into (key,value) pairs and thats how they group things, *its only use if you have that kind of data and many apps use this pattern*
+    -     sort: how they group things
+    -     reduce: group the results and process each group             
 
+
+
+         
 ## why is sequential word count in python slow and whats wrong?
 - the web is large and this is not parallel, so its gonna be a huge amount of time
 - requires O(n) memory for n unique words, huge memory for mapreducing the entire web

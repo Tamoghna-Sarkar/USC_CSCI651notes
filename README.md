@@ -1,1 +1,1 @@
-# USC_CSCI651notes
+# 651notes

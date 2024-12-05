@@ -17,7 +17,7 @@ Welcome to my collection of notes for the **CSCI651 - Advanced Networking and Co
 - [Dean: The Tail at Scale](./dean_tailatscale.md)
 - [Demers](./demers.md)
 - [Dittrich: ICT Regulations](./dittrich11a_ICT_regulations.md)
-- [Fox: Cluster-Based Scalable Networks](./fox_clusterbasedscalablenwks.md)
+- [Fox: Cluster-Based Scalable Networks](./fox_clusterbasedscalablentwks.md)
 - [Goldberg](./goldberg.md)
 - [Huang: 4G Networking](./huang4G.md)
 - [Katabi: Congestion Control](./katabiCP.md)

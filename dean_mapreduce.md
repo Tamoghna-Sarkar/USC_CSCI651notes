@@ -57,6 +57,7 @@ but as users, sometimes you have to think about what is the exact "key-value" th
 
 # PERFORMANCE RESULTS FROM PAPER:
 1) straggler problem leading to performance drawbacks
+
 2) network BW shuffle phase to group and combine and give result
 3)a "hot key" might way too much work to do: "the" occurs way to many times than any other word, so "the" shuffler has too much work to do
- 
+

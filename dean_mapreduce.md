@@ -6,6 +6,9 @@
     -     reduce: group the results and process each group             
 
 
+1) parallelism needs concurrency
+2) with mapreduce, concurrency is not our headache in parallelism
+3) map and reduce can happen together
 
          
 ## why is sequential word count in python slow and whats wrong?
@@ -31,10 +34,10 @@ but as users, sometimes you have to think about what is the exact "key-value" th
 - shuffle phase for gathering k-v from different workers
 
 
-## why sorting?
-- sorting is for grouping and why do we sort?how can it address memory which hashing was not doing?
+## why sorting in shuffle phase?
+- sorting is for grouping and why do we sort?how can it address memory issue which hashing was not doing?the problem with hashing was in memory, what if our data is larger than the memory.  
     -   group different k-vs
-    -   sorting can be done offline and can run out of memory, it can scale tp big size/ability to sort offline is an old-school nice method
+    -   sorting can be done **offline and can run out of memory** and efficient algos could take over without memory spill over, **and hence it can scale tp big size/ability** to sort offline is an old-school nice method 
     -   nlogn time complexity
 
 # what the penalty of shuffling?

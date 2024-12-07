@@ -32,3 +32,4 @@ To have a system that lets an enterprise manage its traffic at finer granularity
 # State Reliability in Ethane:
 • Ethan does have a bunch of state, that is criticial to its working and it has to recover in order for it to work again. The most general approach is to *REDO* it just like we did in mapreduce. 
 
+---

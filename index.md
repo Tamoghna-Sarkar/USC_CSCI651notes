@@ -14,7 +14,7 @@ Welcome to my collection of notes for the **CSCI651 - Advanced Networking and Co
 - [Dean and MapReduce](./dean_mapreduce.md)
 - [Dean: The Tail at Scale](./dean_tailatscale.md)
 # SDN:
-- [Ethan-SDN1](./casado09a.md)
+- [Casado_Ethan-SDN1](./casado09a.md)
 
 ---
 

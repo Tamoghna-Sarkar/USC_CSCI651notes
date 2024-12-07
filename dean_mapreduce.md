@@ -59,5 +59,23 @@ but as users, sometimes you have to think about what is the exact "key-value" th
 1) straggler problem leading to performance drawbacks
 
 2) network BW shuffle phase to group and combine and give result
-3)a "hot key" might way too much work to do: "the" occurs way to many times than any other word, so "the" shuffler has too much work to do
 
+3) a "hot key" might way too much work to do: "the" occurs way to many times than any other word, so "the" shuffler has too much work to do
+
+# Fault Tolerance:
+
+# Performance from Paper:
+## how much traffic do they move for mapping-shuffle-reduce in **normal execution** ?
+- big peak in the beginning when every input is broken down to map, the amount of work it takes to do this phase
+- in the shuffle phase, there are 2 bursts of peaks in the plot, the first peak takes place after the mapping phase and its sending the data everywhere it needs to go and then it falls off due to the sorting period ongoing along with the reducers getting ready and then the  second burst happens wherein more traffic is send to mapreduce again. 
+- in the reduce phase, the reducers are spread out and the process goes on a bit longer
+
+## the middle column talks about BACKUP TASKS which are stragglers:
+but in the first column where normal exexutions are being performed, MR does straggler elimination, where towards the end of the Reduce process, MR says who are the ones who are late or slow, lets just start those workers again.
+
+## whats the difference bw *with backup* and *without backup* tasks?
+- in the middle column, tasks take longer to finish if we look at the x-axis. Is it doing more work? NO, its just that somebody is running slowly.
+-  with backup actually, you do more work because you re-do the stragglers, but without backup/stragglers theres a long tail in the middle column last plot where the stragglers go on for long without a lot of useful work
+- the final column is where they *kill some processes*, killing machine shows up as negative work, and its followed by positive work as the work starts back again.
+
+# Batch to Streaming

@@ -8,7 +8,45 @@ The article discusses **latency variability** in large-scale web services and pr
 ### 1. Introduction to Tail Latency
 - **Latency** refers to the time it takes for a system to respond to a request. **Tail latency** specifically deals with the slowest responses in a distributed system.
 - Systems like **Google Search** require rapid responses for a smooth user experience. Query results need to appear in tens of milliseconds.
-- As systems scale, **tail latency** becomes harder to manage due to the increasing number of servers and resources involved.
+- **As systems scale, **tail latency** becomes harder to manage due to the increasing number of servers and resources involved.**
+*But why?*
+- As systems scale, tail latency becomes harder to manage because the likelihood of encountering latency outliers increases with the number of components involved in processing a request. Here’s why:
+1. Increased Fan-Out in Distributed Systems
+
+    Fan-out refers to how a single user request is distributed across multiple servers to gather results. For example:
+        A search query might require responses from 100 servers, each responsible for a portion of the dataset.
+        If the overall response time depends on the slowest server (which is typical in such systems), even a single server experiencing a latency spike will delay the entire request.
+    As the number of servers involved increases, the probability of one server being slow grows. This is often referred to as the weakest link problem.
+
+Example:
+
+    Suppose each server has a 1% chance of being slow.
+    For a request involving 100 servers, the chance of at least one server being slow is:
+    1−(0.99100)≈63%
+    1−(0.99100)≈63%
+    For 1,000 servers, the probability jumps to 99.9%.
+
+2. Variability in Server Performance
+
+    In large-scale systems, servers are not uniform in performance:
+        Differences in hardware resources, network connectivity, or concurrent workloads can cause some servers to lag behind others.
+        For example, one server might experience temporary CPU or I/O contention, while others do not.
+    Larger systems have more servers, increasing the chance that one or more servers will encounter these issues.
+
+3. Shared Resources
+
+    Servers in a large system often share critical resources such as:
+        Network bandwidth.
+        Storage systems (e.g., distributed databases).
+        Centralized services (e.g., authentication systems).
+    Contention for these resources can amplify tail latency because even a slight bottleneck in one shared resource can ripple through the system, delaying dependent servers.
+
+4. Queueing Delays
+
+    Larger systems mean more simultaneous requests, which increases queue lengths at intermediate servers, network switches, or load balancers.
+    This queueing adds variability because a request might experience delays depending on how many other requests are in the queue when it arrives
+
+
 
 ### 2. Latency Causes and Impact
 Several factors contribute to **latency variability**, including:

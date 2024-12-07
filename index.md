@@ -21,8 +21,6 @@ Welcome to my collection of notes for the **CSCI651 - Advanced Networking and Co
 - [Goldberg](./goldberg.md)
 - [Huang: 4G Networking](./huang4G.md)
 - [Katabi: Congestion Control](./katabiCP.md)
-- [Labovitz](./labovitz.md)
-- [Leyland and Crovella: Self-Similar Traffic](./leyland_crovella.md)
 - [Narayanan: 5G Evolution](./narayanan5G.md)
 - [Nichols and Jacobson](./nichols-jacobson.md)
 - [Oliveira](./oliviera.md)
@@ -30,6 +28,11 @@ Welcome to my collection of notes for the **CSCI651 - Advanced Networking and Co
 - [Shaikh](./shaikh.md)
 - [Shenker: Fundamental Design Issues](./shenker_FundamentalDesignIssues.md)
 - [Test AC](./test_ac.md)
+# Self-Similarity:
+- [Leyland and Crovella: Self-Similar Traffic](./leyland_crovella.md)
+# transits move to cdns:
+- [Labovitz](./labovitz.md)
+# Distributed Papers:
 # SDN:
 - [Ethan-SDN1](./casado09a.md)
 

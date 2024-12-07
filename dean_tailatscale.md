@@ -92,3 +92,8 @@ Several factors contribute to **latency variability**, including:
 ======================================================================================================================================
 
 # **CLASS NOTES**
+
+Reducing the Tail
+• parallelism: do work twice, once plus a backup task, take the first one
+• hedging requests
+• tied requests

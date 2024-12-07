@@ -5,6 +5,19 @@ Welcome to my collection of notes for the **CSCI651 - Advanced Networking and Co
 ---
 
 ## Notes on Papers
+# Self-Similarity:
+- [Leyland and Crovella: Self-Similar Traffic](./leyland_crovella.md)
+# transits move to cdns:
+- [Labovitz](./labovitz.md)
+# Distributed Papers:
+- [Fox: Cluster-Based Scalable Networks](./fox_clusterbasedscalablentwks.md)
+- [Dean and MapReduce](./dean_mapreduce.md)
+- [Dean: The Tail at Scale](./dean_tailatscale.md)
+# SDN:
+- [Ethan-SDN1](./casado09a.md)
+
+---
+
 
 - [Intanagonwiwat: Directed Diffusion](./Intanagonwiwat00a_directeddiffusion.md)
 - [Levchenko](./Levchenko.md)
@@ -13,11 +26,9 @@ Welcome to my collection of notes for the **CSCI651 - Advanced Networking and Co
 - [Caesar: Practical BGP](./caeser.md)
 - [Cardwell-BBR: Bottleneck Bandwidth and RTT](./cardwell-bbr.md)
 - [CCN: Jacobson's Networking](./ccn_jacobson.md)
-- [Dean and MapReduce](./dean_mapreduce.md)
-- [Dean: The Tail at Scale](./dean_tailatscale.md)
+
 - [Demers](./demers.md)
 - [Dittrich: ICT Regulations](./dittrich11a_ICT_regulations.md)
-- [Fox: Cluster-Based Scalable Networks](./fox_clusterbasedscalablentwks.md)
 - [Goldberg](./goldberg.md)
 - [Huang: 4G Networking](./huang4G.md)
 - [Katabi: Congestion Control](./katabiCP.md)
@@ -28,13 +39,6 @@ Welcome to my collection of notes for the **CSCI651 - Advanced Networking and Co
 - [Shaikh](./shaikh.md)
 - [Shenker: Fundamental Design Issues](./shenker_FundamentalDesignIssues.md)
 - [Test AC](./test_ac.md)
-# Self-Similarity:
-- [Leyland and Crovella: Self-Similar Traffic](./leyland_crovella.md)
-# transits move to cdns:
-- [Labovitz](./labovitz.md)
-# Distributed Papers:
-# SDN:
-- [Ethan-SDN1](./casado09a.md)
 
 ---
 

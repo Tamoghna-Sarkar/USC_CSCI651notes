@@ -25,7 +25,7 @@ Welcome to my collection of notes for the **CSCI651 - Advanced Networking and Co
 ---
 
 
-- [Intanagonwiwat: Directed Diffusion](./Intanagonwiwat00a_directeddiffusion.md)
+- [Intanagonwiwat: Directed Diffusion](./Intanangonwiwat00a_directeddiffusion.md)
 - [Levchenko](./Levchenko.md)
 - [MIDTERM2 Paper List](./MIDTERM2paperlist.md)
 - [Boettger](./boettger.md)

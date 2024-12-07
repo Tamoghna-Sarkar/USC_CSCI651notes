@@ -25,3 +25,10 @@ To have a system that lets an enterprise manage its traffic at finer granularity
     – in a new langage FSL
 • *IMPORTANT* **authentication of users and devices**
 • flows
+
+# Per-Flow Processing
+• Can handle tens of thousands of flows arriving per millsecs. shouldnt be an issue as everybody is not clicking or doing something every second/millisec or something 
+
+# State Reliability in Ethane:
+• Ethan does have a bunch of state, that is criticial to its working and it has to recover in order for it to work again. The most general approach is to *REDO* it just like we did in mapreduce. 
+

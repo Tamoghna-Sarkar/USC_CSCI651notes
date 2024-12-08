@@ -24,7 +24,7 @@ OR
 - its not an accident that we dont have regularity in data centers but its just like that, **its a feature and not a drawback**
 
 
-Goals of VL2
+# Goals of VL2
 
 • agile:
     – what? any users VM can run anywhere
@@ -43,3 +43,12 @@ Goals of VL2
     – why? easy for tenants to understand (clean abstraction), and allows cloud operators to move stuff around, and we want to small switch tables
 
 • cost effective
+
+# Approaches in VL2 (how?)
+
+• VLB (Valiant Load Balancing) and ECMP (Equal Cost MultiPath Routing)
+    – high utilization through the core network, even if some routers fail
+
+• Clos topology: gives uniform high banwidth
+
+• application addressing and location address

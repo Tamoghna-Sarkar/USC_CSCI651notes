@@ -38,7 +38,7 @@ Welcome to my collection of notes for the **CSCI651 - Advanced Networking and Co
 - [Dittrich: ICT Regulations](./dittrich11a_ICT_regulations.md)
 - [Goldberg](./goldberg.md)
 - [Huang: 4G Networking](./huang4G.md)
-- [Katabi: Congestion Control](./katabiCP.md)
+- [Katabi: Congestion Control](./katabiXCP.md)
 - [Narayanan: 5G Evolution](./narayanan5G.md)
 - [Nichols and Jacobson](./nichols-jacobson.md)
 - [Oliveira](./oliviera.md)

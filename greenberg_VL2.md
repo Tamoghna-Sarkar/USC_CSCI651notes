@@ -49,6 +49,7 @@ OR
 • VLB (Valiant Load Balancing) and ECMP (Equal Cost MultiPath Routing)
     – high utilization through the core network, even if some routers fail
 
-• Clos topology: gives uniform high banwidth
+• Clos topology: gives uniform high banwidth or **bisection bw** 
 
 • application addressing and location address
+

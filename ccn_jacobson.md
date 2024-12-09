@@ -140,6 +140,14 @@ Special thanks to the authors and contributors for their work on CCN and Project
 
 # Class notes:
 
+besides introducing ccn, they go about considering security
+- integrity of data using crypto checksums
+- pertinent: what does the data mean and repped using the name itself
+- provenance: who gaurantees what data, public-key signatures
+- and discuss DDoS attacks
+
+
+
 - ccn addresses are a bit harder than ip based 128bits, but ccn addresses are veyr detailed and powerful
 
 # trust in the internet:

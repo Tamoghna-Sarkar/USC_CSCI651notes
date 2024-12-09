@@ -121,9 +121,12 @@
 
 ## Figures
 - **Figure 5**: Bulk data transfer performance (TCP vs. CCN).
-  - CCN has higher latency and therefore needs pipelining, its got quite a bit of overhead due to large avriable headers, names etc
+  - CCN has higher latency and therefore needs pipelining, its got quite a bit of overhead due to large variable headers, names etc. The x-axis shows the traffic inflight. In the beginning when a lot less traffic is in flight, the throughput is less as it might be single or very less packets in the connections and as the traffic over the connection increases, the throughput increases. Implication that: Multiple connections as well as high RTT connections are needed to utilize the link. 
+  TCP also has some overheads but not as much as CCN and hence even though it has latency, CCN has reasonable performance.
+
 - **Figure 6**: Total transfer time vs. number of clients (TCP vs. CCN).
 - **Figure 7**: Automatic failover during VoCCN communication.
+- they take some stuff down, they flip bw wired and wirless. 
 
 ---
 

@@ -36,7 +36,7 @@ Welcome to my collection of notes for the **CSCI651 - Advanced Networking and Co
 - [Raman](./raman_kazakhttpinterceptionCA.md)
 
 # Belmont report
-- [Dittrich](./belmont.md)
+- [Dittrich](./dittrich11a_ICT_regulations.md)
 
 # Tor
 - [Dingledine](./tor.md)

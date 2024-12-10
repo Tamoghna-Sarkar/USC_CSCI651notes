@@ -1,8 +1,19 @@
 # Ethical Principles and Applications in ICT Research (ICTR)
 
-## Introduction
+## Introduction and Key Ideas
 - **Objective**: Guide ethical decision-making in ICT research (ICTR), which includes systems, data, and interactions that mediate human and organizational behaviors.
+
+- **specific recommendations from Belmont principles**
+  - a set of principles: a set of applications
+
+  - respect for persons: get informed consent
+
+  - beneficence: minimize harm and maximize benefits
+
+  - justice: subjects of research should not be selected w bias
+
 - **Challenges**: Scale, speed, opacity, and decentralization create unique ethical dilemmas.
+
 - **Extension of Belmont Principles**: Builds on the Belmont Report (Respect for Persons, Beneficence, Justice) with an additional principle: **Respect for Law and Public Interest**.
 
 ---

@@ -4,7 +4,7 @@
 - can now provide QoS
   - applications get gaurantees about bitrate, latency, jitter
   ## main thing they ask is: HOW SHOULD WE DO QoS?
-- need explicit requests
+- need explicit requests: reservations
 - and maybe we need admissions  
   
   ## how to think about this change and how do we evaluate if its better?
@@ -13,6 +13,19 @@
 
 letting *U(j)* being the happiness
 
+
+## Elastic traffic: more users is okay and can be handled
+
+- here i dont need admission control as with more people they will sort it out how to balance and adapt. 
+
+## Inelastic traffic: more users is too much, can make things worse for everybody
+
+- it needs **reservation**, where we gaurantee your requirement, and you use that and interrupt no one else and nobody interrupts you. 
+
+- admission control can help
+
+
+# What can we use to improve things for everyone?
 
   
 
@@ -26,3 +39,4 @@ letting *U(j)* being the happiness
   -  integrated services(QoS): you reserve some bitrate, and you're gaurantee to get some)
   -  
 
+# mostly ppt

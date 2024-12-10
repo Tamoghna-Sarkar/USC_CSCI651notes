@@ -35,8 +35,11 @@ Welcome to my collection of notes for the **CSCI651 - Advanced Networking and Co
 # HTTPS Interception in Kazakhstan
 - [Raman](./raman_kazakhttpinterceptionCA.md)
 
+# Belmont report
+- [Dittrich](./belmont.md)
 
-
+# Tor
+- [Dingledine](./tor.md)
 ---
 
 

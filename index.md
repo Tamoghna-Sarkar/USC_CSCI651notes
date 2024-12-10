@@ -4,7 +4,7 @@ Welcome to my collection of notes for the **CSCI651 - Advanced Networking and Co
 
 ---
 
-## Notes on Papers
+## Notes on Papers (OTHER PAPERS FROM TCP, BGP, QUEUING WERE ALSO TAUGHT BUT DID NOT DOCUMENT, WILL TRY TO CLEAN AND UPLOAD SOME MORE MATERIAL LATER)
 # Self-Similarity:
 - [Leyland and Crovella: Self-Similar Traffic](./leyland_crovella.md)
 # transits move to cdns:

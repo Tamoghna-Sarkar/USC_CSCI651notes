@@ -32,7 +32,10 @@ Welcome to my collection of notes for the **CSCI651 - Advanced Networking and Co
 - [Levchenko](./Levchenko_ClicktrajSpam.md)
 
 
-# 
+# HTTPS Interception in Kazakhstan
+- [Raman](./raman_kazakhttpinterceptionCA.md)
+
+
 
 ---
 

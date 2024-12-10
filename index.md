@@ -25,6 +25,12 @@ Welcome to my collection of notes for the **CSCI651 - Advanced Networking and Co
 # Content Centric Network
 - [Jacobson_CCN](./ccn_jacobson.md)
 
+# Overprovisioning vs QoS(Integrated Services vs Diff Services vs Adaptive)
+- [Shenker_FundamentalDesign](./shenker_FundamentalDesignoverprov_QoS.md)
+
+# Click Trajectories - Spams
+- [Levchenko](./Levchenko_ClicktrajSpam.md)
+
 ---
 
 

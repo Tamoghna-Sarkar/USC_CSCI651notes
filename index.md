@@ -40,6 +40,8 @@ Welcome to my collection of notes for the **CSCI651 - Advanced Networking and Co
 
 # Tor
 - [Dingledine](./tor.md)
+
+
 ---
 
 

@@ -9,6 +9,54 @@ Why network traffic is self-similar?
 ## superposition of heavy-tailed sizes results in self-similarity
 ### Leyland abstractly says this but Crovella solidifies this with evidence
 
+
+
+## a bit about heavy-tail:
+# Heavy-Tailed Distributions
+
+## Overview
+A **heavy-tailed distribution** is a probability distribution with a tail that decays slower than exponential distributions. This means it has a higher probability of producing extreme values.
+
+### Key Features:
+1. **Slow Decay**: Probability of large values decreases slowly, often following a power-law:
+   \[
+   P(X > x) \sim x^{-\alpha}, \quad 0 < \alpha < 2
+   \]
+2. **Infinite Variance or Mean**:
+   - If \( 1 < \alpha < 2 \): Variance is infinite.
+   - If \( 0 < \alpha < 1 \): Both mean and variance are infinite.
+3. **Outliers**: High probability of rare, extreme values.
+
+### Examples of Heavy-Tailed Distributions:
+1. **Pareto Distribution**: Models wealth and internet file sizes.
+2. **Cauchy Distribution**: Infinite variance.
+3. **Log-Normal Distribution**: Common in file size distributions.
+
+---
+
+## Networking and Heavy-Tailed Distributions
+
+### Role in Networking:
+Heavy-tailed distributions are prevalent in networking systems and traffic modeling:
+1. **File Sizes**: Web traffic exhibits heavy-tailed file size distributions where a few very large files dominate the traffic.
+2. **Burstiness**: Leads to long-range dependence and persistent bursty traffic.
+3. **Traffic Patterns**: Packet inter-arrival times often follow heavy-tailed distributions, contributing to self-similarity.
+
+### Example:
+- **File Size Distribution in Web Traffic**:
+  - Majority of web files are small, but a small number of very large files account for a significant portion of total data transferred.
+  - This can overwhelm queues and cause unpredictable traffic behavior, making system design more challenging.
+
+### Implications:
+- **System Challenges**: Networking systems must handle rare but impactful events (e.g., large traffic bursts).
+- **Self-Similarity**: Superimposing many processes with heavy-tailed ON/OFF times results in traffic with long-range dependence.
+---
+
+## Summary
+Heavy-tailed distributions model scenarios where extreme values occur more frequently than expected. In networking, they explain bursty traffic, long-range dependence, and challenges in traffic management.
+----------------------
+
+
 Slide 34: average over different times: all lead to diff averages, and hence timescale matters, all true averages dyring different timescales but completely different in nature.
 Slide 141: traffic at different timescales from [willinger98a]
   - the above 2 diags are fine timscale, the below are wide timescales, at every level they take a random interval and expand it.

@@ -78,6 +78,8 @@ Heavy-tailed distributions model scenarios where extreme values occur more frequ
 -----------------------
 
 Slide 34: average over different times: all lead to diff averages, and hence timescale matters, all true averages dyring different timescales but completely different in nature.
+
+
 Slide 141: traffic at different timescales from [willinger98a]
   - the above 2 diags are fine timscale, the below are wide timescales, at every level they take a random interval and expand it.
   - they look at 2 diff traffic models: real world traffic models on the right and the other is artificial generated with poisson

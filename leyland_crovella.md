@@ -56,6 +56,26 @@ Heavy-tailed distributions are prevalent in networking systems and traffic model
 Heavy-tailed distributions model scenarios where extreme values occur more frequently than expected. In networking, they explain bursty traffic, long-range dependence, and challenges in traffic management.
 ----------------------
 
+### How Heavy-Tails Explain Long-Range Dependence (LRD)
+
+1. **Heavy-Tailed Distributions**:
+   - Distributions with a "heavy tail" have extreme values that occur with non-negligible probability.
+   - Examples: File sizes, inter-arrival times in network traffic.
+
+2. **Connection to LRD**:
+   - **Heavy-tailed events** (e.g., long file transfers) create **bursts** that persist over time.
+   - These bursts cause the autocorrelation \( r(k) \) to decay **slowly (hyperbolically)**, leading to **long-range dependence (LRD)**.
+   - Unlike exponential decay, heavy-tailed processes maintain correlations across long timescales.
+
+3. **Networking Example**:
+   - **Web traffic**: Heavy-tailed file sizes lead to persistent high demand ("bursty" traffic).
+   - **Impacts**: Causes **self-similar traffic**, challenging traditional Poisson-based network models.
+
+4. **Key Takeaway**:
+   - **Heavy tails = Long bursts = Long-range correlations**, explaining why traffic is bursty at all scales.
+
+
+-----------------------
 
 Slide 34: average over different times: all lead to diff averages, and hence timescale matters, all true averages dyring different timescales but completely different in nature.
 Slide 141: traffic at different timescales from [willinger98a]

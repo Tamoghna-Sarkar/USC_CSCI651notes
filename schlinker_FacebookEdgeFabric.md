@@ -1,3 +1,5 @@
+# FOR REVISION, LISTEN TO LECTURE FOR THE RESULTS SLIDE(some doubts)
+
 # **Edge Fabric Capacity-Aware Routing** Goals:
 
 -   find overloaded peerings/paths and shift the some of that traffic load somewhere else
